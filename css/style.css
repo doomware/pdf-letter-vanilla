@@ -1,0 +1,44 @@
+body{
+	background-color: #121212 !important;
+}
+
+.card-main{
+	background-color: rgba(30, 30, 30);
+	border-radius: 10px;
+	/* border-radius: 3%; */
+	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 10%);
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.labelName{
+	color: #bb86fc;
+	padding-top: 25px;
+}
+
+.pLabel{
+	color: #bb86fc;
+	/* padding-top: 25px; */
+}
+
+.form-outline{
+	margin: 35px;	
+}
+
+.btn{
+	margin: 1rem;
+}
+
+.img-fluid{
+	padding: 25px !important; 
+}
+
+/* .center{
+	margin: auto;
+	width: 50%;
+} */
+
+img{
+	border-radius: 15%;
+}
