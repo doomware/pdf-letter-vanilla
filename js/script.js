@@ -12,11 +12,13 @@ function createLetter(){
 			objectForm[key] = value;
 		});
 
+		// console.log(objectForm)
 		// request
 		const xhr = new XMLHttpRequest();
 		xhr.onload = () => {;
 			if (xhr.status >= 200 && xhr.status < 300){
 				const response = JSON.parse(xhr.responseText);
+				// console.log(response);
 				addContentResponse(host, response);	
 			};
 		};
@@ -68,7 +70,7 @@ function addContentResponse(host, response){
 	ptag.classList.add("pLabel");
 	atag.href = host + response.download;
 	atag.id = "download";
-	atag.innerHTML = "descargar";
+	atag.innerHTML = "Descargar";
 	atag.classList.add("btn");
 	atag.classList.add("btn-secondary");
 	divImg.appendChild(ptag);
